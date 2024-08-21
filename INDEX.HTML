@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Encriptador de texto</title>
+    </head>
+<body>
+    <!--encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="./logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+    <!--PRINCIPAL-->
+    <main>
+        <section class="Encriptador">
+            <textarea class="Encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="Ecriptador-aviso">
+                <img src="./aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minusculas  sin acentos</p>
+            </div>
+            <div class="Ecriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar!</button>
+                <button type="submit" class="btn-Desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./muñeco.svg" alt="Imagen Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <P class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</P>
+                <textarea type="mensaje" class="evaluar" readonly></textarea>
+                <button type="submit" class="btn-copiar">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p class="Copyright">&copy; Copyright 2023 - Encriptador de texto - Desarrollado por Kevin Garcia</p>
+        <a href="#" rel="">
+            <img src="./linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <p class="Copyright">&copy; Copyright 2023 - Encriptador de texto - desarrollado por Kevin Garcia</p>
+        <a href="#" rel="">
+            <img src="./github.svg" alt="Logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+
+
+
+</body>
+</html>
